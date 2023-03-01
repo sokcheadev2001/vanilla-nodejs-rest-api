@@ -1,6 +1,6 @@
 const products = require("../data/products");
 const { v4: uuidv4 } = require("uuid");
-const { writeDataToFile } = require("../utils/file.util");
+const { writeDataToFile } = require("../utils/util");
 
 function findAll() {
   return new Promise((resolve, reject) => {
